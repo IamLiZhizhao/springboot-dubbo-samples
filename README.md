@@ -1,5 +1,5 @@
 # springboot-dubbo-samples
-springboot整合dubbo示例
+##### springboot整合dubbo示例
 
 使用SpringBoot+Dubbo 搭建一个简单的分布式服务
 
@@ -31,7 +31,13 @@ File->New->Module... ,然后选择 Maven类型的项目，其他的按照提示�
 
 2.创建接口类
 
-package com.lzz.service; public interface DemoService {    String sayHello(String name); }
+```java
+package com.lzz.service; 
+public interface DemoService {    
+    String sayHello(String name); 
+}
+```
+
 
 \3. 将项目打成 jar 包供其他项目使用
 
